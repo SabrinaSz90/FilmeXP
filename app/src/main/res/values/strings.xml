@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FilmexP</string>
+    <string name="choose_genre">Escolha o gênero do filme...</string>
+    <string name="search_movies">Buscar Filmes</string>
+</resources>

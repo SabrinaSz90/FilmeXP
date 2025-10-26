@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FilmeXP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cor principal usada em AppBar, Botões, FAB -->
+        <item name="colorPrimary">@color/red</item>
+        <!-- Cor do texto/ícone em cima da cor primária -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Cor secundária usada em Chips, Sliders, Switches -->
+        <item name="colorSecondary">@color/roxo3</item>
+        <!-- Cor do texto/ícone sobre a cor secundária -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Fundo principal das telas -->
+        <item name="android:colorBackground">@color/black</item>
+        <!-- Cor do texto padrão em cima do fundo -->
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Cor usada em superfícies (Cards, Dialogs, BottomSheet) -->
+        <item name="colorSurface">@color/white</item>
+        <!-- Texto/ícones sobre superfícies -->
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Cor usada para destacar erros (TextInputLayout, AlertDialog) -->
+        <item name="colorError">@color/red_error</item>
+        <!-- Cor do texto sobre áreas de erro -->
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Cor da status bar (barra superior do Android) -->
+        <item name="android:statusBarColor">@color/roxo4</item>
+        <!-- Ícones da status bar ficam escuros (visíveis sobre fundo claro) -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Cor da barra de navegação (botões virtuais) -->
+        <item name="android:navigationBarColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.FilmeXP" parent="Base.Theme.FilmeXP" />
+</resources>
